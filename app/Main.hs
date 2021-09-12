@@ -4,6 +4,7 @@ import qualified MyFunction
 import qualified MyLib
 import qualified MyList
 import qualified ReadFile
+import qualified DataList
 
 add :: Integer -> Integer -> Integer
 main :: IO ()
@@ -18,3 +19,4 @@ main = do
   MyLib.hello
   MyList.main
   ReadFile.main
+  DataList.main
